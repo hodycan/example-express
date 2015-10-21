@@ -59,15 +59,28 @@ app.listen(80); // internet browsers by default will go to port 80.
 - `res` is an object that represents the HTTP response that is sent to the client.  
 - `sendFile` needs an absolute path to the HTML file that we will be sending.
 - `__dirname' is a global constant provided by Node.js that represents the root directory path.
-- `app.listen(80)` will start the server on port 80, which is the port that browsers go to by default.
+- `app.listen(80)` will start the server on port 80, which is the port that browsers go to by default.  
+
+#### Step 4
+In the command prompt, enter `node app.js`, which will run the server.
+
+#### Step 5
+Fire up your favorite internet browser and type `localhost` in the address bar and go to it.
+You should see whatever you typed in your HTML from earlier.
+
 ___
 # Part 3: Syncing
 ___
 #### Step 1
 Save everything.
+
 #### Step 2
 If you aren't already familiar with git, go through this [Git tutorial](https://try.github.io/levels/1/challenges/1) and/or [this one](https://guides.github.com/activities/hello-world/).
+
 #### Step 3
+Before you go and add all files to staging, make sure you make git ignore the `node_modules` directory. You can do this by creating a `.gitignore` file. Within the file, simply type `node_modules`.
+
+#### Step 4
 Your local git repo is now obviously different from your remote repo. Push your local changes to the remote repo.
 
 

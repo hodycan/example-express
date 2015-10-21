@@ -1,0 +1,22 @@
+{
+  "name": "example-express",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hodycan/example-express.git"
+  },
+  "author": "Cody Han",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hodycan/example-express/issues"
+  },
+  "homepage": "https://github.com/hodycan/example-express#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
